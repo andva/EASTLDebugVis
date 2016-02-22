@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
-	<Type Name="eastl::vector&lt;*&gt;">
+  <Type Name="eastl::vector&lt;*&gt;">
     <DisplayString>{{ size={mpEnd - mpBegin} }}</DisplayString>
     <Expand>
         <Item Name="[size]" ExcludeView="simple">mpEnd - mpBegin</Item>
